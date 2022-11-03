@@ -1,7 +1,7 @@
 ## Obedient Cat(-, 5p)
 Simply run 
-'''bash 
+```bash 
   cat flag
-'''
+```
 
 Flag proof: picoCTF{s4n1ty_v3r1f13d_2aa22101}
