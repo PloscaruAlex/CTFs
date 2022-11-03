@@ -1,5 +1,5 @@
 ## Obedient Cat(-, 5p)
-Simply run 
+Simply run:
 ```bash 
   cat flag
 ```
