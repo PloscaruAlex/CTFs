@@ -1,4 +1,4 @@
-## Obedient Cat(General Skills, 5p)
+## Obedient Cat
 Simply run:
 ```bash 
   cat flag
