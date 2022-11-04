@@ -1,4 +1,4 @@
-## Obedient Cat
+# Obedient Cat
 Simply run:
 ```bash 
   cat flag
