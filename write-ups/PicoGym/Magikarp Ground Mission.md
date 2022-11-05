@@ -4,31 +4,25 @@ I connect to the machine with:
 $ssh ctf-player@venus.picoctf.net -p 51161
 ```
 Using the password `b60940ca`.
-Then 
+
+Once I am inside, I list the files and I read them:
 ```bash
-ctf-player@pico-chall$ ls
+$ ls
 1of3.flag.txt  instructions-to-2of3.txt
-ctf-player@pico-chall$ cat 1of3.flag.txt 
+$ cat 1of3.flag.txt 
 picoCTF{xxsh_
-ctf-player@pico-chall$ cat instructions-to-2of3.txt 
+$ cat instructions-to-2of3.txt 
 Next, go to the root of all things, more succinctly `/`
-ctf-player@pico-chall$ pwd
-/home/ctf-player/drop-in
-ctf-player@pico-chall$ cd ../../../
-ctf-player@pico-chall$ pwd
-/
-ctf-player@pico-chall$ ls
-2of3.flag.txt  bin  boot  dev  etc  home  instructions-to-3of3.txt  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
-ctf-player@pico-chall$ cat 2of3.flag.txt 
+```
+I go to /, and I see the second part of the flag and a file which tells me to go to the home directory.
+```bash
+$ cat 2of3.flag.txt 
 0ut_0f_\/\/4t3r_
-ctf-player@pico-chall$ cat instructions-to-3of3.txt 
-Lastly, ctf-player, go home... more succinctly `~`
-ctf-player@pico-chall$ cd ~
-ctf-player@pico-chall$ ls
-3of3.flag.txt  drop-in
-ctf-player@pico-chall$ cat 3of3.flag.txt 
+```
+Then I get the third part of the flag:
+```bash
+$ cat 3of3.flag.txt 
 c1754242}
-ctf-player@pico-chall$ exit
 ```
 And I get my flag.
 
