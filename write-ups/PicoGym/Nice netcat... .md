@@ -1,7 +1,7 @@
 # Nice netcat... (General Skills, 15p)
 After I run the command I get:
 ```bash
-nc mercury.picoctf.net 35652
+$nc mercury.picoctf.net 35652
 112 
 105 
 99 
