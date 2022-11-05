@@ -1,5 +1,5 @@
 # Wave a flag (General Skills, 10p)
-I can see that the file is an ELF, so I needed to execute it, nut I don't have permission, so:
+I can see that the file is an ELF, so I needed to execute it, but I don't have permission, so:
 ```bash
 chmod +x warm
 ```
