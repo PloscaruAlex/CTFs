@@ -2,7 +2,7 @@
 Just connecting gave me the flag:
 ```bash
 $nc jupiter.challenges.picoctf.org 25103
-You\'re on your way to becoming the net cat master
+You're on your way to becoming the net cat master
 picoCTF{nEtCat_Mast3ry_d0c64587}
 ```
 Flag: `picoCTF{nEtCat_Mast3ry_d0c64587}`
