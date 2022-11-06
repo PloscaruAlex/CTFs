@@ -1,6 +1,20 @@
 # Serpentine (General Skills, 100p)
 When I run the script and I choose option b it says to look in the source code. I found there the function `print_flag()` and I modify the source code so that when
 I choose b option the program executes the function.
+
+Before:
+```python
+if choice == 'a':
+  print_encouragement()
+
+elif choice == 'b':
+  print('\nOops! I must have misplaced the print_flag function! Check my source code!\n\n')
+
+elif choice == 'c':
+  sys.exit(0)
+```
+
+After:
 ```python
 if choice == 'a':
   print_encouragement()
