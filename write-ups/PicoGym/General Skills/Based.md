@@ -1,4 +1,4 @@
-# Based (General Skills, 100p)
+# Based (General Skills, 200p)
 After I connect to the address I need to convert some numbers, first from binary to text, then from octal to text, then from hexadecimal to text. After all 
 three conversions I get the flag.
 
